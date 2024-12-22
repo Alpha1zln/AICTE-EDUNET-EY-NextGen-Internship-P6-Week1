@@ -25,7 +25,7 @@ A- MAKE ITS CLONE INTO PC.
   - Change the current working directory [cwd] to the location where you want the cloned directory.
   - Type git clone, and then paste the URL you copied earlier.
   - 
-  #CODE FOR CLONE - 
+  ## CODE FOR CLONE - 
     git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 B- It is good approach, to create BRANCH of your main, so that both are saved separately and 
@@ -65,8 +65,60 @@ B- It is good approach, to create BRANCH of your main, so that both are saved se
           Copy code
           git checkout -b branch-name
           Replace branch-name with your desired branch name (e.g., feature-update).
+          
           2. Make Changes
           Edit the files as required using your editor (e.g., VS Code).
+          
+          
+          2B- LINK UR GITHUB TO GIT BASH IN PC - 
+              - FIRST Check - 
+                git remote -v 
+
+                - if blank and not added already, then add ur github link - 
+                      git remote add origin https://github.com/username/repository-name.git
+              
+
+              **
+                  git remote -v Explanation:
+                    The git remote -v command lists all the remote repositories connected to your local Git repository. It                       shows the remote name (usually origin) and the URLs for fetch and push operations.
+                
+                How to Add Your GitHub Remote
+                If your local repository is not connected to your GitHub repository, you can add it using the following                     steps: 
+                    a. Find Your GitHub Repository URL
+                        Go to your GitHub repository.
+                        Click the green Code button.
+                        Copy the repository URL (either HTTPS or SSH).
+                        Example URL:
+                        HTTPS: https://github.com/username/repository-name.git
+
+                        b. Add the Remote Repository
+                            If no remote is set, add one using the git remote add command.
+                            
+                            Replace origin with your preferred remote name (commonly origin), and replace the URL with your                                 repository URL.
+                            
+                            bash
+                            Copy code
+                            git remote add origin https://github.com/username/repository-name.git
+
+
+                            c. Verify the Remote Repository
+                                Use git remote -v to confirm the remote has been added successfully:
+                                
+                                bash
+                                Copy code
+                                git remote -v
+                                Output should look like this:
+                                
+                                perl
+                                Copy code
+                                origin  https://github.com/username/repository-name.git (fetch)
+                                origin  https://github.com/username/repository-name.git (push)
+
+
+                            
+            **
+              
+          
           3. Stage the Changes
           To stage all modified files:
           
@@ -77,6 +129,7 @@ B- It is good approach, to create BRANCH of your main, so that both are saved se
           bash
           Copy code
           git add file-name
+          
           4. Commit the Changes
           Commit your changes with a meaningful message:
           
