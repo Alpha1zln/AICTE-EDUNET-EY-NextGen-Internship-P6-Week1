@@ -36,11 +36,8 @@ const Testimonials = () => {
   return (
  <Slider {...settings}>
 <div className="testimonial py-4 px-3">
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Alias asperiores nisi quo, suscipit placeat consequuntur 
-    neque, delectus culpa eaque consectetur dolore at, voluptatum ipsa! 
-    Maxime, dicta.
-     Dicta libero obcaecati expedita.</p>
+<p>"I booked a trip with HappyTravellersWorld thinking I’d get a standard vacation, but somehow ended up with the best stories of my life. Who knew losing my flip-flop to a monkey could be so memorable? Five stars for the laughs and adventure!"
+     </p>
 
 <div className="d-flex align-items-center gap-4 mt-3">
 <img src={ava01} className='w-25 h-25 rounded-2' alt="" />
@@ -51,11 +48,9 @@ const Testimonials = () => {
 </div>
 </div>
 <div className="testimonial py-4 px-3">
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Alias asperiores nisi quo, suscipit placeat consequuntur 
-    neque, delectus culpa eaque consectetur dolore at, voluptatum ipsa! 
-    Maxime, dicta.
-     Dicta libero obcaecati expedita.</p>
+<p>
+"The team at HappyTravellersWorld exceeded my expectations. From seamless booking to personalized recommendations, every detail was taken care of. I felt like a VIP traveler throughout my journey. Highly recommend their services."
+     </p>
 
 <div className="d-flex align-items-center gap-4 mt-3">
 <img src={ava02} className='w-25 h-25 rounded-2' alt="" />
@@ -66,11 +61,9 @@ const Testimonials = () => {
 </div>
 </div>
 <div className="testimonial py-4 px-3">
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Alias asperiores nisi quo, suscipit placeat consequuntur 
-    neque, delectus culpa eaque consectetur dolore at, voluptatum ipsa! 
-    Maxime, dicta.
-     Dicta libero obcaecati expedita.</p>
+<p>
+"I was promised relaxation, but I left with sand in my shoes, a tan that screams ‘tourist,’ and a heart full of joy. 10/10 would let HappyTravellersWorld take over my vacation plans again!"
+     </p>
 
 <div className="d-flex align-items-center gap-4 mt-3">
 <img src={ava03} className='w-25 h-25 rounded-2' alt="" />
@@ -81,11 +74,9 @@ const Testimonials = () => {
 </div>
 </div>
 <div className="testimonial py-4 px-3">
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Alias asperiores nisi quo, suscipit placeat consequuntur 
-    neque, delectus culpa eaque consectetur dolore at, voluptatum ipsa! 
-    Maxime, dicta.
-     Dicta libero obcaecati expedita.</p>
+<p>
+"Our family trip was unforgettable thanks to HappyTravellersWorld. The itinerary was thoughtfully crafted, and the support team was available every step of the way. It made traveling stress-free and enjoyable for everyone."
+     </p>
 
 <div className="d-flex align-items-center gap-4 mt-3">
 <img src={ava03} className='w-25 h-25 rounded-2' alt="" />
@@ -96,11 +87,8 @@ const Testimonials = () => {
 </div>
 </div>
 <div className="testimonial py-4 px-3">
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Alias asperiores nisi quo, suscipit placeat consequuntur 
-    neque, delectus culpa eaque consectetur dolore at, voluptatum ipsa! 
-    Maxime, dicta.
-     Dicta libero obcaecati expedita.</p>
+<p>"I don’t know how they do it, but HappyTravellersWorld managed to make me look cool in my vacation photos and fed me the best food of my life. I’m never planning my own trip again—these guys are too good!"
+</p>
 
 <div className="d-flex align-items-center gap-4 mt-3">
 <img src={ava02} className='w-25 h-25 rounded-2' alt="" />

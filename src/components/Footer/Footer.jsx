@@ -45,8 +45,9 @@ const Footer = () => {
           <Col lg='3'>
           <div className="logo">
           <img src={logo} alt="" />
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-             Possimus, necessitatibus.</p>
+          <p>"Explore the world with ease and joy, with HappyTravellersWorld, your ultimate travel partner."
+          </p>
+          
           </div>
           <div className="social__links d-flex align-items-center gap-4">
           <span>
@@ -100,7 +101,7 @@ const Footer = () => {
       <span><i class="ri-map-pin-line"></i></span>
       Address:
     </h6>
-    <p className='mb-0'>Sylhet, Bangladesh</p>
+    <p className='mb-0'>Trichy, India</p>
       </ListGroupItem>
   
       <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
@@ -108,20 +109,20 @@ const Footer = () => {
       <span><i class="ri-mail-line"></i></span>
       Email:
     </h6>
-    <p className='mb-0'>email01@gmail.com</p>
+    <p className='mb-0'>apzn11@gmail.com</p>
       </ListGroupItem>
       <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-3'>
     <h6 className='mb-0 d-flex align-items-center gap-2'>
       <span><i class="ri-phone-fill"></i></span>
       Phone:
     </h6>
-    <p className='mb-0'>+0123456789</p>
+    <p className='mb-0'>+091 1234567890</p>
       </ListGroupItem>
 </ListGroup>
           </Col>
           <Col lg='12' className='text-center pt-5'>
           <p className='copyright'>
-            Copyright {year}, design and develop by </p>
+          Copyright {2024}, design and develop by Alpha1zln, Edunet Co.</p>
           </Col>
         </Row>
       </Container>

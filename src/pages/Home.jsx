@@ -25,9 +25,21 @@ const Home = () => {
             <Subtitle subtitle={'Know Before You Go'}/>
             <img src={worldImg} alt="" />
           </div>
-          <h1>Traveling opens the door to creating <span className="highlight">
-            memories</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ut voluptatum quisquam error facilis eum rerum, ratione accusamus molestias fugiat consequatur repellendus pariatur numquam ea dolor! Eligendi sunt ab nostrum?</p>
+          
+          <br />
+          <h3 > <i>
+            A Happy adventure is just 1 click away. <span style={{ color: 'green'}}>  
+            Let’s turn your travel dreams into reality. 
+            </span> 
+            </i></h3>
+            <br />
+
+            <p>
+              Welcome to Travel Bliss! We believe planning a trip shouldn't feel like solving a Rubik's Cube. 
+              Our platform is built to help you explore dreamy destinations, book seamless journeys, 
+              and uncover hidden gems—all without breaking a sweat (or the bank). 
+            </p>
+
         </div>
         </Col>
         <Col lg="2">
@@ -79,20 +91,22 @@ const Home = () => {
           <div className="experience__countent">
           <Subtitle subtitle={'Experience'}/> 
         <h2 >With our all experience <br/> we will serve you </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          <br />
-           Quam veniam eveniet voluptate voluptatibus.</p>
+        <p> 
+        We've packed countless bags, ticked off over 2,000 happy travelers, and racked up a whopping 15,000 unforgettable moments—all in just 3 years! Not bad for a team that still occasionally forgets sunscreen. 
+          <br /> 
+           </p>
+
            <div className="counter__wrapper d-flex align-items-center gap-5">
             <div className="counter__box">
-              <span>12K+</span>
+              <span>2K+</span>
               <h6>Successful trip</h6>
             </div>
             <div className="counter__box">
-              <span>2K+</span>
+              <span>5K+</span>
               <h6>Regular clients</h6>
             </div>
             <div className="counter__box">
-              <span>15</span>
+              <span>3</span>
               <h6>Years experience</h6>
             </div>
            </div>
