@@ -100,6 +100,15 @@ B- It is good approach, to create BRANCH of your main, so that both are saved se
                             Copy code
                             git remote add origin https://github.com/username/repository-name.git
 
+                            or 
+                            Replace / Update the Remote URL : 
+                            If you want to change the remote origin to a different repository, use the following command:
+                            
+                            bash
+                            Copy code
+                            git remote set-url origin https://github.com/username/new-repo.git
+
+                            
 
                             c. Verify the Remote Repository
                                 Use git remote -v to confirm the remote has been added successfully:
@@ -141,18 +150,26 @@ B- It is good approach, to create BRANCH of your main, so that both are saved se
           bash
           Copy code
           git commit -m "Added new features to the login page"
+
+          
           5. Push the Branch to Remote
           To push your branch to the remote repository:
           
           bash
           Copy code
           git push origin branch-name
+          
+          
+          
           6. Pull Changes from the Remote Branch (if needed)
           To update your branch with the latest changes from the remote:
           
           bash
           Copy code
           git pull origin branch-name
+          
+          
+          
           7. Switch Between Branches (Optional)
           To switch back to the main branch or any other branch:
           
@@ -164,12 +181,21 @@ B- It is good approach, to create BRANCH of your main, so that both are saved se
           bash
           Copy code
           git checkout main
+          
+          
+          
           8. Create a Pull Request (Optional)
           Once you’ve pushed your branch, you can:
           
           Go to the repository on GitHub.
           Click Compare & pull request for your branch.
           Review the changes and create a pull request to merge into the target branch (e.g., main).
+          
+          
+          ************************************************************************************************************************
+          ************************************************************************************************************************
+
+          
           Summary of Commands
           bash
           Copy code
